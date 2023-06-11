@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: rgb(78, 16, 247);
+    padding: 13px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 8px;
+    color: white;
+}
+
+#firstSection {
+    background: center / contain no-repeat url('/static/img/ks4.jpg');
+    height: 500px;
+    /* margin-top: 20px; */
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+#secondSection {
+    height: 300px;
+    background-color: yellow;
+ 
+}
+
+#secondSection div{
+    background-color: green;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+#secondSection div .box{
+    background-color: red;
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 15px;
+    width: 30%;
+    display: block;
+}
+
+#secondSection div .box img{
+    height: 50px;
+    width: 50px;
+}
+
+#thirdSection {
+    height: 300px;
+    background-color: rgb(28, 191, 255);
+    
+}
+
+#footer{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

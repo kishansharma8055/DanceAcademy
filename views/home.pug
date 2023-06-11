@@ -1,0 +1,35 @@
+extend base.pug
+block script 
+    script (src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#firstSection  
+        | Welcome to Kishan Dance Academy        
+    section#secondSection  
+        h1 our time table
+        div.container
+            div.box
+                h1 first box
+                img(src="/static/img/house.jpg", alt="")
+                | Lorem ipsum dolor sit amet consecteturadipisicing elit. Dolorum mollitia 
+                    
+            div.box
+                h1 second box
+                    img(src="/static/img/house.jpg", alt="")
+                    | Lorem ipsum dolor sit amet consecteturadipisicing elit. Dolorum mollitia
+
+            div.box
+                h1  third box
+                    img(src="/static/img/house.jpg", alt="")
+                    | Lorem ipsum dolor sit amet consecteturadipisicing elit. Dolorum mollitia
+        
+    section#thirdSection  
+        | section for sponsors         
+
+    script 
+        incldue ../static/index .js]
+

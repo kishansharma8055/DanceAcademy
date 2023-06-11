@@ -1,0 +1,43 @@
+doctype html 
+html 
+    head
+        title dance academy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar.top 
+            ul
+                li #[a(href="/") home]
+                li #[a(href="/") about]
+                li #[a(href="/") services]
+                li #[a(href="/") contact]
+                li #[a(href="/") class info]
+        section#firstSection  
+            | Welcome to Kishan Dance Academy
+        
+        section#secondSection  
+            h1 our time table
+            div.container
+                div.box
+                    h1 first box
+                    img(src="/static/img/house.jpg", alt="")
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia 
+                    
+                div.box
+                    h1 second box
+                     img(src="/static/img/house.jpg", alt="")
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia
+
+                div.box
+                    h1  third box
+                     img(src="/static/img/house.jpg", alt="")
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia
+        
+        section#thirdSection  
+            | section for sponsors 
+        
+        footer#footer 
+            | our footer here
+        
+        script 
+            incldue ../static/index .js]
