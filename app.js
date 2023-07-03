@@ -2,7 +2,7 @@ const con = require("../Dance_website/connaction.");
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = 8000;
+const port = 5000;
 const bodyParser = require('body-parser');
 // const mysql = require('mysql');
 
