@@ -1,7 +1,7 @@
 const mysql = require("mysql");
 
 const con = mysql.createConnection({
-    host: 'localhost',
+    host: '',
     user: 'root',
     password: '',
     database: 'dance academy'
